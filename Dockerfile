@@ -13,7 +13,8 @@ WORKDIR /home/app/client-coffee
 RUN \
     npm install -g bower && \
     npm install && \
-    bower install --config.interactive=false --allow-root
+    bower install --config.interactive=false --allow-root && \
+    npm install -g grunt
  
 # Tell Docker we are going to use this port
 EXPOSE 9000
