@@ -5,7 +5,7 @@ FROM node:latest
 WORKDIR /home/app
  
 # Put all our code inside that directory that lives in the container
-RUN git clone https://github.com/PereMekna/client-coffee.git
+RUN git clone https://github.com/PereMekna/pause-client.git
 
 WORKDIR /home/app/client-coffee
 
